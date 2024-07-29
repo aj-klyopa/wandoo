@@ -23,4 +23,8 @@ Using this code you are can create a webservice Whoami behind Nginx using SSL.
    ```console
    docker-compose exec acme.sh --issue --server letsencrypt -d $MYDOMAINNAME -w /acme.sh 
    ```
+5. Change keyfile's owner to grant access to the key from Nginx in Docker.
+   ```console
+   chown 101 acme.sh/$(echo "$MYDOMAINNAME" | tr '[:upper:]' '[:lower:]')_ecc/$(echo "$MYDOMAINNAME" | tr '[:upper:]' '[:lower:]').key
+   ```
       
