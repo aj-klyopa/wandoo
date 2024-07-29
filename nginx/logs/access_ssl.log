@@ -1,0 +1,2 @@
+85.254.74.112 - - [29/Jul/2024:22:37:07 +0000] "GET / HTTP/1.1" 200 793 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+85.254.74.112 - - [29/Jul/2024:22:37:07 +0000] "GET /favicon.ico HTTP/1.1" 200 723 "https://wandoo.mywire.org/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
