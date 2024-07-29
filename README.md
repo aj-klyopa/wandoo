@@ -3,6 +3,7 @@
 ### Introduction
 Homework for DevOps Engineer position.
 Using this code you are can create a webservice Whoami behind Nginx using SSL.
+An SSL cetificate will be signed by Letsencrypt and will be automaticaly renewed.
 
 ### Usage
 
